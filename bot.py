@@ -55,6 +55,8 @@ async def op(_, m :Message):
         return 
     keyboard = InlineKeyboardMarkup(
         [[
+            InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
+        [[
             InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url="https://t.me/+BTh89gNULSdiOWFl"),
             InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url="https://t.me/+th0TO2Xdh05lYmM1")
         ]]
@@ -73,6 +75,8 @@ async def chk(_, cb : CallbackQuery):
         await cb.answer("🙅‍♂️ You are not joined my channel first join channel then check again. 🙅‍♂️", show_alert=True)
         return 
     keyboard = InlineKeyboardMarkup(
+        [[
+            InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
         [[
             InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url="https://t.me/+BTh89gNULSdiOWFl"),
             InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url="https://t.me/+th0TO2Xdh05lYmM1")

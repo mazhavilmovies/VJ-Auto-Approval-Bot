@@ -56,13 +56,13 @@ async def op(_, m :Message):
     keyboard = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
-        [[
+        ],[
             InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url="https://t.me/+BTh89gNULSdiOWFl"),
             InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url="https://t.me/+th0TO2Xdh05lYmM1")
         ]]
     )
     add_user(m.from_user.id)
-    await m.reply_photo("https://graph.org/file/d57d6f83abb6b8d0efb02.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @VJ_Botz __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await m.reply_photo("https://graph.org/file/0074381aba5bfe0f76b8f-bcfcf6c109b07ba6b5.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @MazhavilMoviesLinks __**".format(m.from_user.mention, "https://t.me//mazhavil_approver_bot"), reply_markup=keyboard)
     
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ callback ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -77,13 +77,13 @@ async def chk(_, cb : CallbackQuery):
     keyboard = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🍻 Aᴅᴅ Tᴏ Cʜᴀᴛ 🍻', url='https://t.me/Mazhavil_approver_bot?startchannel=Bots4Sale&admin=invite_users+manage_chat')
-        [[
+        ],[
             InlineKeyboardButton("💥 Sᴜᴘᴘᴏʀᴛ 💥", url="https://t.me/+BTh89gNULSdiOWFl"),
             InlineKeyboardButton("⚓ Uᴘᴅᴀᴛᴇꜱ ⚓", url="https://t.me/+th0TO2Xdh05lYmM1")
         ]]
     )
     add_user(m.from_user.id)
-    await cb.edit_text(text="**🦊 Hello {}!\nI'm an auto approve Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @MazhavilMoviesLinks __**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await cb.edit_text(text="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @MazhavilMoviesLinks __**".format(cb.from_user.mention, "https://t.me//mazhavil_approver_bot"), reply_markup=keyboard)
     
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ info ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
